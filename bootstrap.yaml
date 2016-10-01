@@ -7,29 +7,22 @@ after-scripts:
 - sh ./scripts/last_adjusts.sh
 casks:
 - alfred
-- base
-- coconutbattery
-- divvy
+- caffeine
+- cleanmymac
+- clipmenu
 - dropbox
-- fabric
+- fantastical
 - flash-player
 - font-hack
-- genymotion
 - google-drive
 - google-hangouts
 - heroku-toolbelt
 - iterm2
-- jadengeller-helium
 - java
-- mou
-- rescuetime
-- skitch
-- sourcetree
+- macdown
 - spotify
 - sublime-text3
-- transmission
-- vagrant
-- virtualbox
+- utorrent
 - vlc
 formulas:
 - git
