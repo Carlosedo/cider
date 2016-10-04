@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[\$this->_info('--------------> ${1:text} '.print_r(\$${2:variable}, true));]]></content>
+    <tabTrigger>_info</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,37 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Babel Snippets",
+		"Better CoffeeScript",
+		"Djaneiro",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Github Tools",
+		"Jinja2",
+		"JSON Reindent",
+		"Markdown Preview",
+		"Package Control",
+		"Pretty JSON",
+		"react-native-snippets",
+		"ReactJS",
+		"ReactJS Snippets",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-coffee",
+		"SublimeLinter-flake8",
+		"SublimeLinter-pep8",
+		"SublimeLinter-pyflakes",
+		"SublimeLinter-pylint",
+		"Theme - Argonaut",
+		"Theme - Brogrammer",
+		"TrailingSpaces",
+		"Vuejs Complete Package"
+	]
+}
