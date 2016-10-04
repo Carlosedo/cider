@@ -30,9 +30,6 @@ call pathogen#helptags()
 let g:airline_theme='dark'
 let g:airline_powerline_fonts = 1
 
-" Golang
-let g:go_fmt_command = 'goimports'
-
 " Multi-cursors
 let g:multi_cursor_start_key='<C-d>'
 let g:multi_cursor_next_key='<C-d>'

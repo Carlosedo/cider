@@ -10,7 +10,6 @@ import atexit
 import collections
 import os
 import readline
-import rlcompleter
 import sys
 from code import InteractiveConsole
 from tempfile import mkstemp
@@ -142,7 +141,7 @@ class EditableBufferInteractiveConsole(InteractiveConsole):
             os.unlink(tmpfl)
             tmpfl = ''
             lines = line.split('\n')
-            for i in range(len(lines) - 1): self.push( lines[i] )
+            for i in range(len(lines) - 1): self.push(lines[i])
             line = lines[-1]
         return line
 

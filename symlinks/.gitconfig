@@ -1,11 +1,11 @@
 # Sample gitconfig
 [user]
-    name         = Jorge Maroto
-    email        = patoroco@gmail.com
+    name         = Carlos Edo
+    email        = carlosedo14@gmail.com
 [github]
-    user         = patoroco
+    user         = carlosedo
 [core]
-	excludesfile = /Users/patoroco/.gitignore
+	excludesfile = /Users/carlosedo/.gitignore
     editor       = vim
 [alias]
     co       = checkout
@@ -25,16 +25,14 @@
     unassume = update-index --no-assume-unchanged
     assumed  = !git ls-files -v | grep ^h | cut -c 3-
 
-    credit   = !$HOME/.cider/git/git-credit
     wtf      = !$HOME/.cider/git/git-wtf
-    rank     = !$HOME/.cider/git/git-rank-contributers
     merged   = !$HOME/.cider/git/git-local-merged
-    rbpull   = !$HOME/.cider/git/git-reup
 
     count    = shortlog -sn
     filelog  = log -u
     ls       = !$HOME/.cider/git/git-ls
     ll       = !$HOME/.cider/git/git-ll
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [color]
     ui     = true
     diff   = auto
@@ -64,11 +62,3 @@
     default = simple
 [pull]
     ff = only
-[credential]
-	helper = osxkeychain
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.5.5/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true

@@ -5,7 +5,7 @@ export CIDER=$HOME/.cider
 export ZSH=$CIDER/zsh/oh-my-zsh.git
 
 # Company folder
-export COMPANY=~/Ticketea
+export COMPANY=~/Thinkful
 
 # Language
 export LC_ALL=en_US.UTF-8
@@ -24,28 +24,20 @@ DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
 
 # Plugins to load (custom plugins may be added to ~/.oh-my-zsh/custom/plugins/)
-BUNDLED_COMMANDS=(
-  fastlane
-  pod
-)
 plugins=(
   brew
-  bundler
   colorize
   colored-man
-  gem
   gitfast
   git-extras
   npm
   pip
-  pod
   python
   rvm
   screen
   vagrant
   virtualenvwrapper
   wd
-  xcode
   z
   zsh-syntax-highlighting
 )
@@ -69,20 +61,23 @@ then
   source ~/.localrc
 fi
 
+# TheFuck app
+alias fuck='$(thefuck $(fc -ln -1))'
+
+# Syntax highlighting for keynote
+alias keynote_highlight="pbpaste | pygmentize -l python -f rtf -O style=default,fontface=\"Inconsolata\",fontsize=50 | pbcopy"
+alias keynote_highlight_js="pbpaste | pygmentize -l javascript -f rtf -O style=default,fontface=\"Inconsolata\",fontsize=50 | pbcopy"
+
+# Dont share command history between tabs in iterm2
+unsetopt inc_append_history
+unsetopt share_history
 
 # Path
 export PATH=/usr/local/bin:/usr/local/share/npm/bin:$CIDER/bin:/usr/texbin:$PATH
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-export NVM_DIR="/Users/patoroco/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-export ANDROID_HOME=/usr/local/opt/android-sdk
-
 # `brew cask` will install for all users by default
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
-export ANSIBLE_VAULT_PASSWORD_FILE=~/.ticketea_ansible_vault_pass
 
 alias sshtkt="ssh -i ~/.ssh/ticketea/devops.pem -l ubuntu"
 alias tailtkt='ssh vagrant "tail -f /var/log/ticketea/api/*.log"'
