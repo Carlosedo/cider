@@ -1,12 +1,12 @@
 after-scripts:
 - brew linkapps
 - sh ./scripts/pip.sh
-- sh ./scripts/gem.sh
-- sh ./scripts/chrome.sh
 - sh ./scripts/defaults.sh
 - sh ./scripts/last_adjusts.sh
 casks:
+- adobe-photoshop-lightroom
 - alfred
+- android-file-transfer
 - caffeine
 - cleanmymac
 - clipmenu
@@ -14,33 +14,41 @@ casks:
 - fantastical
 - flash-player
 - font-hack
-- google-drive
-- google-hangouts
+- franz
+- google-chrome
 - heroku-toolbelt
+- hyperswitch
+- imageoptim
 - iterm2
 - java
+- lastpass
 - macdown
+- spectacle
 - spotify
-- sublime-text3
+- sqlitebrowser
+- stremio
+- sublime-text
+- subtitles
 - utorrent
 - vlc
 formulas:
-- git
 - curl
-- wget
-- tree
-- imagemagick
-- jpegoptim
-- vim --with-lua
-- go
-- npm
-- ruby
-- mysql
+- git
 - httpie
-- android-sdk
-- archey
-- jq
-- swiftlint
+- jpegoptim
+- microsoft-office
+- mysql
+- node
+- npm
+- postgresql
+- python
+- python3
+- ruby
+- sqlite
+- thefuck
+- the_silver_searcher
+- vim --with-lua
+- wget
 - z
 symlinks:
     .*: '~'
