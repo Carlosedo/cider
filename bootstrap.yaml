@@ -4,7 +4,6 @@ after-scripts:
 - sh ./scripts/defaults.sh
 - sh ./scripts/last_adjusts.sh
 casks:
-- adobe-photoshop-lightroom
 - alfred
 - android-file-transfer
 - caffeine
@@ -16,7 +15,6 @@ casks:
 - font-hack
 - franz
 - google-chrome
-- heroku-toolbelt
 - hyperswitch
 - imageoptim
 - iterm2
@@ -35,6 +33,7 @@ casks:
 formulas:
 - curl
 - git
+- heroku-toolbelt
 - httpie
 - mysql
 - node
