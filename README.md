@@ -5,7 +5,7 @@ Installation
 ============
 
 ```bash
-curl -Ls https://raw.githubusercontent.com/patoroco/dotfiles/master/setup.sh | sh
+curl -Ls https://raw.githubusercontent.com/carlosedo/dotfiles/master/setup.sh | sh
 ```
 
 
