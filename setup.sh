@@ -10,9 +10,6 @@ command -v brew > /dev/null || \
 
 brew install caskroom/cask/brew-cask
 
-# Install rvm
-command -v rvm > /dev/null || (curl -sSL https://get.rvm.io | bash -s stable)
-
 # Install pip using brew to don't need sudo to use pip install
 command -v pip > /dev/null || \
 	brew install python
