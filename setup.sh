@@ -20,7 +20,7 @@ command -v cider > /dev/null || \
 
 
 # Test if .cider folder exists or download it from github
-[ -d ~/.cider ] || git clone git@github.com:carlosedo/cider-config.git ~/.cider
+[ -d ~/.cider ] || git clone git@github.com:carlosedo/dotfiles.git ~/.cider
 
 
 cider restore
