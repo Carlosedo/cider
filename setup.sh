@@ -8,8 +8,6 @@ set -o pipefail
 command -v brew > /dev/null || \
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install caskroom/cask/brew-cask
-
 # Install pip using brew to don't need sudo to use pip install
 command -v pip > /dev/null || \
 	brew install python
