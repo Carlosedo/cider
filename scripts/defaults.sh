@@ -17,9 +17,6 @@ echo "Remove duplicates in the 'Open With' menu"
 echo "Disable local Time Machine snapshots"
 sudo tmutil disablelocal
 
-echo "Hide directories in $HOME"
-chflags hidden ~/VirtualBox
-
 echo "Allow to see ~/Library"
 chflags nohidden ~/Library
 
