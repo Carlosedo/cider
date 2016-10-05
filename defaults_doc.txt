@@ -1,0 +1,44 @@
+// Don't repeat character when holding key, show special characters instead
+"ApplePressAndHoldEnabled": true,
+
+// Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
+"AppleKeyboardUIMode": true,
+
+// Set a blazingly fast keyboard repeat rate
+"KeyRepeat": 0,
+
+// Allow text selection in Quick Look
+"QLEnableTextSelection": true,
+
+// Search in current directory by default
+"FXDefaultSearchScope": "SCcf",
+
+// Set column view as preferred view style
+"FXPreferredViewStyle": "clmv",
+
+// Display full paths as Finder window titles
+"_FXShowPosixPathInTitle": "YES"
+
+// Search for updates weekly
+"ScheduleFrequency": 1
+
+// Avoid creating .DS_Store files on network volumes
+"DSDontWriteNetworkStores": true
+
+// Show opened apps
+"show-process-indicators": true,
+
+// Don't show Dashboard as a Space
+"dashboard-in-overlay": true,
+
+// Don't automatically rearrange Spaces based on most recent use
+"mru-spaces": false,
+
+// Disable dashboard
+"mcx-disabled": true
+
+// Enable AirDrop over Ethernet and on unsupported Macs running Lion
+"BrowseAllInterfaces": true
+
+// Tap to click
+"Clicking": true,
