@@ -23,6 +23,7 @@ casks:
 - java
 - lastpass
 - macdown
+- microsoft-office
 - spectacle
 - spotify
 - sqlitebrowser
@@ -35,8 +36,6 @@ formulas:
 - curl
 - git
 - httpie
-- jpegoptim
-- microsoft-office
 - mysql
 - node
 - npm
