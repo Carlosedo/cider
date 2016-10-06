@@ -3,18 +3,13 @@
         "AppleShowScrollBars": "WhenScrolling",
         "NSDocumentSaveNewDocumentsToCloud": false,
         "NSNavPanelExpandedStateForSaveMode": true,
-        "ApplePressAndHoldEnabled": true,
+        "ApplePressAndHoldEnabled": false,
         "AppleShowAllExtensions": true,
         "WebKitDeveloperExtras": true,
-        "NSQuitAlwaysKeepsWindows": false,
         "AppleKeyboardUIMode": true,
         "KeyRepeat": 0,
         "NSCloseAlwaysConfirmsChanges": true,
-        "com.apple.swipescrolldirection": false
-
-    },
-    "Apple Global Domain": {
-        "com.apple.sound.beep.feedback": 0
+        "com.apple.sound.beep.feedback": false
     },
     "com.apple.finder": {
         "NewWindowTarget": "PfHm",
@@ -35,35 +30,14 @@
     "com.apple.screencapture": {
         "type": "png"
     },
-    "com.apple.screensaver": {
-        "askForPassword": 1,
-        "askForPasswordDelay": 0
-    },
-    "defaults write com.apple.menuextra.battery": {
-        "ShowPercent": "YES"
-    },
     "com.apple.SoftwareUpdate": {
         "ScheduleFrequency": 1
     },
     "com.apple.desktopservices": {
         "DSDontWriteNetworkStores": true
     },
-    "com.apple.dock": {
-        "show-process-indicators": true,
-        "dashboard-in-overlay": true,
-        "mru-spaces": false,
-        "autohide": true,
-        "tilesize": 37,
-        "magnification": true,
-        "largesize": 67
-    },
     "com.apple.dashboard": {
         "mcx-disabled": true
-    },
-    "com.apple.TextEdit": {
-        "RichText": 0,
-        "PlainTextEncoding": 4,
-        "PlainTextEncodingForWrite": 4
     },
     "com.apple.TimeMachine": {
         "DoNotOfferNewDisksForBackup": true
@@ -75,21 +49,5 @@
     },
     "com.apple.NetworkBrowser": {
         "BrowseAllInterfaces": true
-    },
-    "com.apple.AppleMultitouchTrackpad": {
-        "Clicking": true,
-        "TrackpadThreeFingerDrag": true,
-        "TrackpadThreeFingerVertSwipeGesture": 0,
-        "TrackpadThreeFingerHorizSwipeGesture": 0,
-        "TrackpadFourFingerVertSwipeGesture": 2,
-        "TrackpadFourFingerHorizSwipeGesture": 2
-    },
-    "com.apple.driver.AppleBluetoothMultitouch.trackpad": {
-        "Clicking": true,
-        "TrackpadThreeFingerDrag": true,
-        "TrackpadThreeFingerVertSwipeGesture": 0,
-        "TrackpadThreeFingerHorizSwipeGesture": 0,
-        "TrackpadFourFingerVertSwipeGesture": 2,
-        "TrackpadFourFingerHorizSwipeGesture": 2
     }
 }
