@@ -8,8 +8,7 @@
         "WebKitDeveloperExtras": true,
         "AppleKeyboardUIMode": true,
         "KeyRepeat": 0,
-        "NSCloseAlwaysConfirmsChanges": true,
-        "com.apple.sound.beep.feedback": false
+        "NSCloseAlwaysConfirmsChanges": true
     },
     "com.apple.finder": {
         "NewWindowTarget": "PfHm",
