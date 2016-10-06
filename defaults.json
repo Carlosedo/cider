@@ -82,7 +82,7 @@
         "TrackpadThreeFingerVertSwipeGesture": 0,
         "TrackpadThreeFingerHorizSwipeGesture": 0,
         "TrackpadFourFingerVertSwipeGesture": 2,
-        "TrackpadThreeFingerHorizSwipeGesture": 2
+        "TrackpadFourFingerHorizSwipeGesture": 2
     },
     "com.apple.driver.AppleBluetoothMultitouch.trackpad": {
         "Clicking": true,
@@ -90,6 +90,6 @@
         "TrackpadThreeFingerVertSwipeGesture": 0,
         "TrackpadThreeFingerHorizSwipeGesture": 0,
         "TrackpadFourFingerVertSwipeGesture": 2,
-        "TrackpadThreeFingerHorizSwipeGesture": 2
+        "TrackpadFourFingerHorizSwipeGesture": 2
     }
 }
