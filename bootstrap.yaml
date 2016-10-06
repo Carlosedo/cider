@@ -7,7 +7,6 @@ casks:
 - alfred
 - android-file-transfer
 - caffeine
-- cleanmymac
 - clipmenu
 - dropbox
 - fantastical
@@ -21,7 +20,6 @@ casks:
 - java
 - lastpass
 - macdown
-- microsoft-office
 - spectacle
 - spotify
 - sqlitebrowser
