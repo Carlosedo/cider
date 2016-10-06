@@ -23,9 +23,6 @@ chflags nohidden ~/Library
 echo "Allow applications from anywere"
 sudo spctl --master-disable
 
-echo "Enable FileVault"
-sudo fdesetup enable
-
 
 # Kill affected applications
 for app in Finder Dock Mail Safari SystemUIServer; do killall "$app" > /dev/null 2>&1; done
