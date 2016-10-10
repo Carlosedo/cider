@@ -20,7 +20,10 @@ iTerm
 - `Alt + ->`: Esc f
 - `Alt + <-`: Esc b
 - `Alt + Backspace`: Hex Code 0x17
-- `Alt + Supr` (`fn + backspace`): Esc d
+- `Cmd + Backspace`: Hex Code 0x15 + `echo 'bindkey "^U" backward-kill-line' >> ~/.zshrc && source ~/.zshrc`
+- `Cmd + z`: Hex Code 0x1f
+
+
 
 ####Source
 - [Jump to beginning / end of line](http://stackoverflow.com/questions/6205157/iterm2-how-to-get-jump-to-beginning-end-of-line-in-bash-shell)
