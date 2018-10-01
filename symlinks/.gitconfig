@@ -62,3 +62,5 @@
     default = simple
 [pull]
     ff = only
+[rebase]
+	autoStash = true

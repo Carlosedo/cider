@@ -31,6 +31,7 @@ casks:
 formulas:
 - curl
 - git
+- git-standup
 - heroku-toolbelt
 - httpie
 - mysql
