@@ -4,7 +4,8 @@ after-scripts:
 casks:
 - alfred
 - caffeine
-- clipmenu
+- clipy
+- db-browser-for-sqlite
 - dropbox
 - flux
 - font-hack
@@ -16,7 +17,6 @@ casks:
 - macdown
 - spectacle
 - spotify
-- sqlitebrowser
 - sublime-text
 formulas:
 - curl
@@ -31,12 +31,12 @@ formulas:
 - sqlite
 - thefuck
 - the_silver_searcher
-- vim --with-lua
+- vim
 - wget
 - z
 symlinks:
     .*: '~'
 taps:
-- homebrew/cask-cask
-- caskroom/versions
-- caskroom/fonts
+- homebrew/cask
+- homebrew/cask-versions
+- homebrew/cask-fonts
