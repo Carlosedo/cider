@@ -10,8 +10,8 @@ command -v brew > /dev/null || \
 # Install pip using brew to don't need sudo to use pip install
 command -v pip > /dev/null || \
 	(brew install pyenv && \
-    pyenv install 3.8 && \
-    pyenv global 3.8)
+    pyenv install 3.8.3 && \
+    pyenv global 3.8.3)
 
 command -v cider > /dev/null || \
 	(pip install cider && \
