@@ -37,6 +37,6 @@ formulas:
 symlinks:
     .*: '~'
 taps:
-- caskroom/cask
+- homebrew/cask-cask
 - caskroom/versions
 - caskroom/fonts

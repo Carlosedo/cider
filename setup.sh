@@ -14,8 +14,7 @@ command -v pip > /dev/null || \
     pyenv global 3.8.3)
 
 command -v cider > /dev/null || \
-	(pip install cider && \
-	pip install click==4.1) # https://github.com/msanders/cider/pull/30
+	pip install cider
 
 
 # Test if .cider folder exists or download it from github
