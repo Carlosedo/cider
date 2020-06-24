@@ -6,8 +6,7 @@ set -o pipefail
 # Test if commands exists, and if not, install them.
 # Source: http://www.cyberciti.biz/faq/unix-linux-shell-find-out-posixcommand-exists-or-not/
 command -v brew > /dev/null || \
-	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 # Install pip using brew to don't need sudo to use pip install
 command -v pip > /dev/null || \
 	brew install python
