@@ -3,7 +3,7 @@
         "AppleShowScrollBars": "WhenScrolling",
         "NSDocumentSaveNewDocumentsToCloud": false,
         "NSNavPanelExpandedStateForSaveMode": true,
-        "ApplePressAndHoldEnabled": false,
+        "ApplePressAndHoldEnabled": true,
         "AppleShowAllExtensions": true,
         "WebKitDeveloperExtras": true,
         "AppleKeyboardUIMode": true,
@@ -28,6 +28,10 @@
     },
     "com.apple.screencapture": {
         "type": "png"
+    },
+    "defaults write com.apple.menuextra.battery": {
+        "ShowPercent": "YES",
+        "ShowTime": "NO"
     },
     "com.apple.SoftwareUpdate": {
         "ScheduleFrequency": 1

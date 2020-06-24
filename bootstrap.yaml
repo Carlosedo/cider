@@ -1,19 +1,13 @@
 after-scripts:
-- brew linkapps
 - sh ./scripts/pip.sh
 - sh ./scripts/defaults.sh
-- sh ./scripts/last_adjusts.sh
 casks:
 - alfred
-- android-file-transfer
 - caffeine
 - clipmenu
 - dropbox
-- fantastical
-- flash-player
+- flux
 - font-hack
-- franz
-- google-chrome
 - hyperswitch
 - imageoptim
 - iterm2
@@ -23,20 +17,15 @@ casks:
 - spectacle
 - spotify
 - sqlitebrowser
-- stremio
 - sublime-text
-- subtitles
-- utorrent
-- vlc
 formulas:
 - curl
 - git
 - git-standup
-- heroku-toolbelt
+- heroku/brew/heroku
 - httpie
 - mysql
-- node
-- npm
+- nvm
 - postgresql
 - python
 - python3
