@@ -27,8 +27,6 @@ formulas:
 - mysql
 - nvm
 - postgresql
-- python
-- python3
 - ruby
 - sqlite
 - thefuck
